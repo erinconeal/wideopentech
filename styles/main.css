@@ -1,0 +1,198 @@
+.flex {
+    display: flex;
+}
+
+.flex-column {
+    flex-direction: column;
+}
+
+.align-center {
+    align-items: center;
+}
+
+.justify-center{
+    justify-content: center;
+}
+
+.uppercase {
+    text-transform: uppercase;
+}
+
+h2 {
+  font-size: 30px;
+}
+
+.white-text {
+    color: #fff;
+}
+
+.orange {
+    color: #ff803a;
+}
+
+.green {
+    color: #bdd436;
+}
+
+.main-margin-bottom-small {
+    margin-bottom: 10px;
+}
+
+.main-margin-bottom-medium {
+    margin-bottom: 20px;
+}
+
+.main-margin-bottom-large {
+    margin-bottom: 30px;
+}
+
+.global-button {
+    width: 300px;
+    border-radius: 20px;
+    background:#bdd436;
+    padding:5px 0;
+    font-size: 20px;
+    letter-spacing: 2px;
+    color: white;
+
+}
+
+.main-site-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    width:100%;
+    padding: 25px;
+    background: #6a787c;
+}
+
+.logo {
+    width:150px;
+}
+
+.main-wrapper {
+    padding-top: 80px;
+}
+
+.top-section {
+    height:50vh;
+    display: flex;
+    padding-top:30px ;
+    background: url("http://cdn01.wideopentech.com/themes/wot-2013-gm/_/img/wot-masthead-dark.jpg")center no-repeat;
+    background-size: cover;
+}
+
+.intro-text {
+    font-size: 22px;
+    letter-spacing: 2px;
+    text-align: center;
+    padding: 40px 0;
+}
+
+.main-tagline-top {
+    font-size: 52px;
+    font-weight: 300;
+}
+
+.intro-text-bottom {
+    position: relative;
+    font-size: 24px;
+    text-align: center;
+    line-height: 33px;
+}
+
+.intro-text-bottom:before {
+    content: " ";
+    display: block;
+    background: #fff;
+    height: 9px;
+    width: 20%;
+    position: absolute;
+    left: -7%;
+    top: 15px;
+}
+
+.intro-text-bottom:after {
+    content: " ";
+    display: block;
+    background: #fff;
+    height: 9px;
+    width: 20%;
+    position: absolute;
+    right: -7%;
+    top: 15px;
+}
+
+.dark-section {
+  background: #F0F0F0;
+}
+
+.font-main {
+  color: #97A2A7;
+}
+
+.font-alt {
+  color: #40666d
+}
+
+.learn-more {
+  font-size: 18px;
+  line-height: 25px;
+  font-weight: 400;
+  min-height: 300px;
+  position: relative;
+}
+
+.column-container {
+  width: 80%;
+  margin: auto;
+  text-align: center;
+}
+
+.white-box {
+  background: white;
+  width: 95%;
+  margin: auto;
+  margin-bottom:15px;
+  padding: 30px 1em;
+}
+
+.img-responsive {
+  display: block;
+  height: auto;
+  max-width: 100%;
+}
+
+.dark-gray-section {
+  background: #6a787c;
+}
+
+.dividing-line {
+  width: 25%;
+  border-top: none;
+  height: 7px;
+  background: #bdd537;
+  color: #bdd537;
+}
+
+.footer {
+  padding: 5px 0;
+  display: block;
+  text-align: center;
+  letter-spacing: 1px;
+  font-size: 12px;
+  font-weight: lighter;
+}
+
+.message-bubble-container {
+  position: fixed;
+  width:50px;
+  height:50px;
+  bottom: 20px;
+  right:20px;
+  z-index: 1;
+  background: #bdd436;
+  border-radius: 5px;
+  box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 6px 0px;
+}
